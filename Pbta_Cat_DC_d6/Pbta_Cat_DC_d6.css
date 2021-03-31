@@ -1,0 +1,26 @@
+.charsheet button{
+    content: ""!important;
+    background: #ececec;
+    color: #222831;
+}
+
+.charsheet {
+    background: #222831;
+    color: #ececec;
+    
+}
+
+
+label {
+    color: #f2a365;
+}
+ input, textarea {
+    background-color: #30475e;
+    border: 2px solid rgb(75, 67, 54);
+    border-radius: 4px;
+    color: #ececec;
+    text-align: left;
+  }
+
+
+ 

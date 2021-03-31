@@ -1,0 +1,61 @@
+<table>
+    <tr><td><label>NOM:</label></td><td><input type="text" name="attr_character_name"/></td></tr>
+    <tr><td><label>ARQUETIP:</label></td><td><input type="text" name="attr_arch"/></td></tr>
+    <tr><td><label>OCUPACIÓ:</label></td><td><input type="text" name="attr_ocu"/></td></tr>
+    <tr><td><label>APARIÈNCIA:</label></td><td><input type="text" name="attr_ocu"/></td></tr>
+ </table>
+ <hr>
+ <input type="radio" name="attr_mod" value="0" checked >&nbsp;+0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="attr_mod" value="1">&nbsp;+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="attr_mod" value="-1">&nbsp;-1
+ <hr>
+ <table>
+    <tr><td><label>Fortalesa:</label></td><td><input type="number" name="attr_for" value="0"/></td><td><button type="roll" value="***Soportar dany:***[[@{dau} + @{for}+@{mod}]]" name="roll_SoportarDany" style="">Soportar Dany</button></td></tr> 
+    <tr><td><label>Voluntad:</label></td><td><input type="number" name="attr_vol" value="0"/></td><td><button type="roll" value="***Aguantar el tipus:***[[@{dau} + @{vol}+@{mod}]]" name="roll_SoportarDany">Aguantar el tipus</button></td></tr>
+    <tr><td><label>Reflexes:</label></td><td><input type="number" name="attr_ref" value="0"/></td><td><button type="roll" value="***Evitar perill:***[[@{dau} + @{for}+@{ref}]]" name="roll_SoportarDany">Evitar perill</button></td></tr>
+    <tr><td> <label>Raó:</label></td><td><input type="number" name="attr_rao" value="0"/></td><td><button type="roll" value="***Investigar:***[[@{dau} + @{rao}+@{mod}]]" name="roll_SoportarDany">Investigar</button></td></tr>
+    <tr><td><label>Percepció:</label></td><td><input type="number" name="attr_per" value="0"/></td><td><button type="roll" value="***Observar situació:***[[@{dau} + @{per}+@{mod}]]" name="roll_SoportarDany">Observar situació</button></td></tr>
+    <tr><td><label>Intuïció:</label></td><td><input type="number" name="attr_int" value="0"/></td><td><button type="roll" value="***Llegir persona:***[[@{dau} + @{int}+@{mod}]]" name="roll_SoportarDany">Llegir persona</button></td></tr>
+    <tr><td><label>Autocontrol:</label></td><td><input type="number" name="attr_aut" value="0"/></td><td><button type="roll" value="***Actuar sota pressió:***[[@{dau} + @{aut}+@{mod}]]" name="roll_SoportarDany">Actuar sota pressió</button></td></tr>
+    <tr><td><label>Carisma:</label></td><td><input type="number" name="attr_car" value="0"/></td><td><button type="roll" value="***Influenciar altre:***[[@{dau} + @{car}+@{mod}]]" name="roll_SoportarDany">Influenciar altre</button></td></tr>
+    <tr><td><label>Violència:</label></td><td><input type="number" name="attr_vio" value="0"/></td><td><button type="roll" value="***Entrar en combat:***[[@{dau} + @{vio}+@{mod}]]" name="roll_SoportarDany">Entrar en combat</button></td></tr>
+    <tr><td><label>Esperit:</label></td><td><input type="number" name="attr_esp" value="0"/></td><td><button type="roll" value="***Veure més enllà:***[[@{dau} + @{esp}+@{mod}]]" name="roll_SoportarDany">Veure més enllà</button></td></tr>
+ </table>
+ <hr>
+ <input type="radio" name="attr_dau" value="2d6" checked >&nbsp;Sà</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="attr_dau" value="3d6kl2" >&nbsp;Ferit seriós&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="attr_dau" value="4d6kl2" >&nbsp;Ferit crític
+ <br><br>
+ <label>FERIDES SERIOSES:</label>
+ <table>
+     <tr><td>Ferida:</td><td>Estabilitzada:</td></tr>
+     <tr><td><input type="text"/></td><td style="text-align:center"><input type="checkbox"/></td></tr>
+     <tr><td><input type="text"/></td><td style="text-align:center"><input type="checkbox"/></td></tr>
+     <tr><td><input type="text"/></td><td style="text-align:center"><input type="checkbox"/></td></tr>
+     <tr><td><input type="text"/></td><td style="text-align:center"><input type="checkbox"/></td></tr>
+ </table>
+ <br>
+ <label>FERIDA CRÍTICA:</label>
+ <table>
+     <tr><td>Ferida:</td><td>Estabilitzada:</td></tr>
+     <tr><td><input type="text"/></td><td style="text-align:center"><input type="checkbox"/></td></tr>
+ </table>
+ <hr>
+ <label>AVANTATGES:</label>
+ <textarea style="height: 68px"></textarea>
+ <hr>
+ <label>DESVANTATGES:</label>
+ <textarea style="height: 68px"></textarea>
+ <hr>
+ <label>SECRETS:</label>
+ <textarea style="height: 68px"></textarea>
+ <hr>
+ <label>EQUIP:</label>
+ <textarea style="height: 80px"></textarea>
+
+     
+ 
+     
+     
+     
+     
+     
+     
+     
+     
